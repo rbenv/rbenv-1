@@ -1,5 +1,5 @@
 # Copyright (c) 2013 Sam Stephenson
-#
+# 
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the
 # "Software"), to deal in the Software without restriction, including
@@ -39,5 +39,6 @@ end
 
 complete -f -c rbenv -n '__fish_rbenv_needs_command' -a '(rbenv commands)'
 for cmd in (rbenv commands)
-  complete -f -c rbenv -n "__fish_rbenv_using_command $cmd" -a "(rbenv completions $cmd)"
+  complete -f -c rbenv -n "__fish_rbenv_using_command $cmd" -a \
+    "(rbenv completions (commandline -opc)[2..-1])"
 end
