@@ -1,8 +1,3 @@
-**This plugin for Fisherman is no longer maintained as I've switched away to using [asdf](https://github.com/asdf-vm/asdf) 
-instead. If this plugin is useful to you and you'd like to take over maintainership, please let me know.**
-
----
-
 # Rbenv
 
 [rbenv] plugin support for the fish shell.
@@ -12,7 +7,7 @@ instead. If this plugin is useful to you and you'd like to take over maintainers
 With [fisherman]
 
 ```
-fisher daenney/rbenv
+fisher rbenv/fish-rbenv
 ```
 
 ## Notes
