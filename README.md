@@ -7,7 +7,7 @@
 With [fisherman]
 
 ```
-fisher add rbenv/fish-rbenv
+fisher install rbenv/fish-rbenv
 ```
 
 ## Notes
